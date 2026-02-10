@@ -1,0 +1,80 @@
+---Pseudocode #1---
+Declare string variable phrase = ""
+Declare string variable caps = phrase.upper()
+	
+phrase = user input
+
+---Pseudocode #2---
+Declare integer variable numberOne = 0
+Declare integer variable numberTwo = 0
+
+Declare integer variable output = 0
+Declare boolean variable done = false
+
+While not done
+	numberOne = user input
+	numberTwo = user input
+	
+	output = numberOne + numberTwo
+	
+	prompt user if they are done
+	if yes then
+		done = true
+
+---Pseudocode #3---
+Declare integer variable numberOne = 0
+Declare integer variable numberTwo = 0
+
+Declare boolean variable done = false
+
+While not done
+	numberOne = user input
+	
+	total = numberOne + numberTwo
+	
+	prompt user if they are done
+	if yes then
+		done = true
+		numberTwo = total
+
+---Pseudocode #4---
+Declare integer variable minNumber = 0
+Declare integer variable maxNumber = 0
+
+Declare integer variable randomNumber = 0
+Declare boolean variable repeat = true
+
+While true
+	maxNumber = user input
+	randomNumber = number
+	
+	random.randint(minNumber, maxNumber)
+	
+	prompt user if they want to try again
+	if yes then
+		repeat = true
+
+---Pseudocode #5---
+Declare string variable timesOdd = 0
+Declare string variable timesEven = 0
+
+Declare integer variable randomNumber = 0
+Declare double variable numberTest = 0
+
+Loop for 10 times
+	Get random number
+
+// this checks if RIGHT or LEFT, and adds up to final output of odds and evens
+If randomNumber is 0
+	then say "number is zero";
+else
+	numberTest = randomNumber % 2 // Use modulus (%) divided by 2 to test if even
+	if numberTest = 0 it is even
+		timesEven = timesEven + 1
+		print randomNumber "- is RIGHT"
+	else
+		timesOdd = timesOdd + 1
+		print randomNumber "- is LEFT"
+
+Print "Left: " timesOdd
+Print "Right: " timesEven
